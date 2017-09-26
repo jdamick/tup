@@ -1,0 +1,59 @@
+# dnsperf -p 9090 -v -d queries.txt -l 60 -t 50 -c 100 -T 5
+Statistics:
+
+  Queries sent:         5492
+  Queries completed:    5294 (96.39%)
+  Queries lost:         198 (3.61%)
+
+  Response codes:       NOERROR 5294 (100.00%)
+  Average packet size:  request 32, response 48
+  Run time (s):         59.998233
+  Queries per second:   88.235932
+
+  Average Latency (s):  0.014380 (min 0.043567, max 0.137747)
+  Latency StdDev (s):   0.002592
+
+Statistics:
+
+  Queries sent:         6986
+  Queries completed:    6787 (97.15%)
+  Queries lost:         199 (2.85%)
+
+  Response codes:       NOERROR 6787 (100.00%)
+  Average packet size:  request 32, response 48
+  Run time (s):         60.002945
+  Queries per second:   113.111115
+
+  Average Latency (s):  0.014361 (min 0.042124, max 0.173415)
+  Latency StdDev (s):   0.002632
+
+
+
+Statistics:
+
+  Queries sent:         4755
+  Queries completed:    4555 (95.79%)
+  Queries lost:         200 (4.21%)
+
+  Response codes:       NOERROR 4555 (100.00%)
+  Average packet size:  request 32, response 48
+  Run time (s):         60.003377
+  Queries per second:   75.912394
+
+  Average Latency (s):  0.014352 (min 0.045427, max 0.130446)
+  Latency StdDev (s):   0.002404
+
+
+Statistics:
+
+  Queries sent:         5781
+  Queries completed:    5582 (96.56%)
+  Queries lost:         199 (3.44%)
+
+  Response codes:       NOERROR 5582 (100.00%)
+  Average packet size:  request 32, response 48
+  Run time (s):         59.999431
+  Queries per second:   93.034216
+
+  Average Latency (s):  0.019102 (min 0.061738, max 0.171807)
+  Latency StdDev (s):   0.003206
